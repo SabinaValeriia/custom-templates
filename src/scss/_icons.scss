@@ -1,0 +1,21 @@
+.icons {
+  width: 20px;
+  height: 20px;
+  display: block;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  position: absolute;
+  cursor: pointer;
+
+  &:before {
+    content: "";
+    display: block;
+    background: white;
+    width: 100%;
+    height: 100%;
+  }
+
+  &.arrow {
+    mask-image: url("@/assets/Vector.svg");
+  }
+}
